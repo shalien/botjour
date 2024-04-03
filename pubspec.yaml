@@ -1,0 +1,19 @@
+name: botjour
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  sha_env:
+    git: https://github.com/shalien/sha_env.git
+  nyxx: ^6.1.0
+  rss_dart: ^1.0.6
+  http: any
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
