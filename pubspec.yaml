@@ -1,6 +1,6 @@
 name: botjour
-description: A discord bot to post stuff rom "bonjourmadame.com"
-version: 2.0.0
+description: A sample command-line application.
+version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -11,13 +11,9 @@ dependencies:
   sha_env:
     git: https://github.com/shalien/sha_env.git
   nyxx: ^6.1.0
-  bel_adn:
-    git:
-      url: https://github.com/shalien/bel_adn.git
-      ref: main
   rss_dart: ^1.0.6
   http: any
 
 dev_dependencies:
-  lints: ^4.0.0
+  lints: ^3.0.0
   test: ^1.24.0
